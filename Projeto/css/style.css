@@ -1,0 +1,251 @@
+@charset "UTF-8";
+/*  CONFIGURAÇÕES GLOBAIS  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+/*  TOPO  */
+.topo{
+    width: 1344px;
+    height: 250px;
+    margin: auto;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-top: 40px;
+}
+.contato_mail{
+    width: 340px;
+    height: 20px;
+    float: right;
+}
+.contato_tel{
+    width: 440px;
+    height: 80px;
+    float: right;
+    margin-top: 90px;
+}
+.contato_tel p{
+    text-align: justify;
+    padding: 2px;
+}
+/*  FIM DO TOPO  */
+/*  MENU  */
+.menu{
+    width: 100%;
+    height: 60px;
+    background-color: #2A3B61;
+}
+.menu ul{
+    display: block;
+    text-align: center;
+}
+.menu ul li{
+    display: inline-block;
+    margin-top: 17px;
+    padding: 5px;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.menu ul li a:hover{
+    background-color: #638CE6;
+    border-radius: 5px;
+}
+/*  FIM MENU  */
+/*  IMAGEM DE FUNDO  */
+.banner{
+    width: 100%;
+    height: 550px;
+}
+/*  FIM DA IMAGEM DE FUNDO  */
+/*  CORPO  */
+.corpo{
+    width: 100%;
+    height: auto;
+}
+/*  FIM DO CORPO  */
+/*  SESSÃO HISTÓRIA  */
+.historia{
+    width: 1344px;
+    height: 330px;
+    margin: auto;
+}
+.historia h1{
+    font-size: 2em;
+    text-align: center;
+    padding-top: 30px;  
+}
+.historia p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 20px;
+}
+/*  FIM DA SESSÃO HISTÓRIA  */
+/*  SESSÃO SERVIÇOS  */
+.servicos{
+    width: 1344px;
+    height: 1110px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px black;
+    border-radius: 5px;
+}
+.servicos h1{
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+}
+.servicos p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 20px;
+}
+.imagem{
+    width: 400px;
+    height: 130px;
+    padding: 10px;
+    margin: auto; 
+    margin-top: 10px; 
+}
+/*  FIM DA SESSÃO SERVIÇOS  */
+/*  CONFIGURAÇÃO PADRÃO PARA AS DIVS DENTRO DA SESSÃO SERVIÇOS */
+.nivel_dois{
+    text-align: justify;
+    padding: 10px;
+    margin-left: 10px;
+}
+.nivel_tres{
+    text-align: justify;
+    margin-left: 30px; 
+}
+.items_lista{
+    width: 670px;
+    height: 220px;
+    float: left;
+    margin: auto;
+}
+.items_lista ul li{
+    margin-left: 80px;
+    margin-top: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.imagem_padrao{
+    width: 670px;
+    height: 220px;
+    margin: auto;
+    float: left;
+}
+.imagem_padrao img{
+    margin-top: 40px;
+    margin-left: 280px;
+}
+/*  FIM DA CONFIGURAÇÃO PADRÃO */
+/*  ARTIGO ELÉTRICA  */
+.eletrica{
+    width: 1344px;
+    height: 290px;
+    margin: auto;
+    margin-top: 20px;
+}
+/*  FIM DO ARTIGO ELÉTRICA  */
+/*  ARTIGO HIDRÁULICA  */
+.hidraulica{
+    width: 1344px;
+    height: 290px;
+    margin: auto;
+}
+/*  FIM DO ARTIGO ELÉTRICA  */
+/*  ARTIGO OUTROS  */
+.outros{
+    width: 1344px;
+    height: 300px;
+    margin: auto;
+}
+/*  FIM DO ARTIGO OUTROS  */
+/*  RODAPÉ  */
+.rodape{
+    width: 100%;
+    height: 300px;
+    background-color: #0D2761;
+}
+.rodape h1{
+    text-align: center;
+    font-size: 2em;
+    padding: 10px;
+    color: white;
+}
+/*  FIM DO RODAPÉ  */
+/*  ÁREA DE CONTATO  */
+.contato{
+    width: 400px;
+    height: 130px;
+    margin-left: 288px;
+}
+.contato h2{
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+.contato p{
+    font-size: 0.9em;
+    text-align: justify;
+    padding: 2px;
+    color: white;
+}
+/*  FIM DA ÁREA DE CONTATO  */
+/*  MAPA DO SITE  */
+.mapa{
+    width: 400px;
+    height: 130px;
+    margin-top: -125px;
+    margin-right: 288px;
+    float: right;
+}
+.mapa h2{
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+.mapa ul li a{
+    font-size: 0.9em;
+    text-align: justify;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2px;
+    color: white;
+}
+.mapa a:hover{
+    text-decoration: underline;
+}
+/*  FIM DO MAPA  */
+/*  MENÇÕES E DIREITOS  */
+.direitos{
+    width: 400px;
+    height: 100px;
+    margin: auto;
+}
+.direitos p{
+    padding: 8px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+.direitos a{
+    color: white;
+    text-decoration: none;
+}
+.direitos a:hover{
+    text-decoration: underline;
+}
+/*  FIM DAS MENÇÕES E DIREITOS  */
